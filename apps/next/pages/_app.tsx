@@ -16,11 +16,6 @@ if (process.env.NODE_ENV === 'production') {
 function MyApp({ Component, pageProps }: SolitoAppProps) {
   return (
     <>
-      <Head>
-        <title>Tamagui Example App</title>
-        <meta name="description" content="Tamagui, Solito, Expo & Next.js" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
