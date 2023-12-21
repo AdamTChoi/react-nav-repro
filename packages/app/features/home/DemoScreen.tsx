@@ -1,7 +1,7 @@
 import { Button, Stack } from '@my/ui'
 import { ScrollView } from 'react-native'
 
-const NestedScreen = () => {
+const DemoScreen = () => {
   return (
     <Stack flex={1} gap="$2">
       <Stack>The ScrollView below doesn't show</Stack>
@@ -24,4 +24,4 @@ const NestedScreen = () => {
   )
 }
 
-export default NestedScreen
+export default DemoScreen

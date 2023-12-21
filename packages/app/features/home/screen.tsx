@@ -1,7 +1,7 @@
 import { YStack } from '@my/ui'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import NestedScreen from './NestedScreen'
+import DemoScreen from './DemoScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -19,8 +19,8 @@ function NavigationDemo() {
       <NavigationContainer independent={true}>
         <Stack.Navigator>
           <Stack.Screen
-            name="nestedscreen"
-            component={NestedScreen}
+            name="demoscreen"
+            component={DemoScreen}
             options={{
               headerShown: false,
             }}
